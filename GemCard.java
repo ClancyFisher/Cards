@@ -34,7 +34,7 @@ public class GemCard
         
         System.out.println();
     }
-    
+    ///dfdffd
     public int GetColorValue(ColorCost color)
     {
         switch(color){
