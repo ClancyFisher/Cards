@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=m\ vp\ bl\ gr\ wh\ re\ ba
+comment0.target=GemCard(int,\ int,\ int,\ int,\ int,\ int,\ int)
+comment1.params=color
+comment1.target=int\ GetColorValue(ColorCost)
+comment2.params=x\ y
+comment2.target=void\ setXY(int,\ int)
+comment3.params=g
+comment3.target=void\ draw(java.awt.Graphics)
+numComments=4

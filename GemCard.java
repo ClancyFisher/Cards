@@ -61,9 +61,9 @@ public class GemCard
         Graphics2D g2d = (Graphics2D) g;
         Color red = new Color(255, 137,137,255);
         Color blue = new Color(145, 206,253,255);
-        Color green = new Color(142, 199,253,147);
-        Color white = new Color(196, 196,196,147);
-        Color black = new Color(76, 76,76,147);
+        Color green = new Color(171, 255, 188,225);
+        Color white = new Color(196, 196,196,225);
+        Color black = new Color(76, 76,76,225);
 
         switch(m)
         {
@@ -98,7 +98,7 @@ public class GemCard
             case 2:
             g.setColor(Color.RED); break;
             case 3:
-            g.setColor(Color.GREEN); break;
+            g.setColor(Color.GREEN.darker()); break;
             case 4:
             g.setColor(Color.WHITE); break;
             case 5:
